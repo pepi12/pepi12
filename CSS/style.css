@@ -1,0 +1,198 @@
+
+.navbar {
+    background-color: #59b660;
+}
+.navbar .navbar-brand {
+    color: #000000;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #fbfbfb;
+}
+.navbar .navbar-text {
+    color: #000000;
+}
+.navbar .navbar-text a {
+    color: #fbfbfb;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #fbfbfb;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #fbfbfb;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #fbfbfb;
+    background-color: #44adad;
+}
+.navbar .navbar-toggle {
+    border-color: #44adad;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #44adad;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #000000;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #000000;
+}
+.navbar .navbar-link {
+    color: #000000;
+}
+.navbar .navbar-link:hover {
+    color: #fbfbfb;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #000000;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfb;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfb;
+        background-color: #44adad;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #000000;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfb;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfb;
+        background-color: #44adad;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #000000;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfb;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfb;
+        background-color: #44adad;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #000000;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #fbfbfb;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #fbfbfb;
+        background-color: #44adad;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #000000;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #fbfbfb;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #fbfbfb;
+    background-color: #44adad;
+}
+html,body{
+    height: 100%;
+}
+.background100
+{
+    background-image: url("../img/306501.jpg");
+    height: 100%;
+}.moinstreso
+ {
+     background-color: rgba(33,117,195,0.5);
+ }
+@media only screen and (max-width: 480px){
+    .background100{
+        background-image: url("../img/peropero.PNG");
+        height: 100%;
+    }
+    .moinstreso{
+        background-color: rgba(255,236,168,0.5);
+    }
+}
+.height2
+{
+    height: 50%;
+}
+.backdeux{
+    background-color: dimgrey;
+}
+.uno{
+    background-color: #6610f2;
+}
+.dos{
+    background-color: darkred;
+}
+.tres{
+    background-color: goldenrod;
+}
+.quatro{
+    background-color: olivedrab;
+}
+.cinquo{
+    background-color: #80bdff;
+}
+.pip{
+    padding: 0px;
+}
+.padbule{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.parallax {
+    background-image: url("../img/jhonny flesh.PNG");
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2
+{
+    background-image: url("../img/ben oui tabarnak.jpg");
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.derniercolor
+{
+    background-color: #6610f2;
+}
+
